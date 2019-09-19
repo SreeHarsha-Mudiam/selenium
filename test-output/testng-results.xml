@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+    <line>
+      <![CDATA[Screenshot attached based on status]]>
+    </line>
+    <line>
+      <![CDATA[Successfully pass screesnshots attached]]>
+    </line>
+    <line>
+      <![CDATA[Html Reporter Is compleated]]>
+    </line>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="15814" started-at="2019-09-18T03:01:45Z" finished-at="2019-09-18T03:02:00Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="15814" started-at="2019-09-18T03:01:45Z" finished-at="2019-09-18T03:02:00Z">
+      <class name="com.TestRunner.Testexecutionwindow">
+        <test-method status="PASS" signature="initialstepexecution()[pri:0, instance:com.TestRunner.Testexecutionwindow@7d9d1a19]" name="initialstepexecution" is-config="true" duration-ms="365" started-at="2019-09-18T03:01:44Z" finished-at="2019-09-18T03:01:45Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialstepexecution -->
+        <test-method status="PASS" signature="execution()[pri:0, instance:com.TestRunner.Testexecutionwindow@7d9d1a19]" name="execution" duration-ms="14791" started-at="2019-09-18T03:01:45Z" finished-at="2019-09-18T03:01:59Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- execution -->
+        <test-method status="PASS" signature="methodstatustoreport(org.testng.ITestResult)[pri:0, instance:com.TestRunner.Testexecutionwindow@7d9d1a19]" name="methodstatustoreport" is-config="true" duration-ms="997" started-at="2019-09-18T03:01:59Z" finished-at="2019-09-18T03:02:00Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=execution status=SUCCESS method=Testexecutionwindow.execution()[pri:0, instance:com.TestRunner.Testexecutionwindow@7d9d1a19] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Screenshot attached based on status]]>
+            </line>
+            <line>
+              <![CDATA[Successfully pass screesnshots attached]]>
+            </line>
+            <line>
+              <![CDATA[Html Reporter Is compleated]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- methodstatustoreport -->
+      </class> <!-- com.TestRunner.Testexecutionwindow -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
